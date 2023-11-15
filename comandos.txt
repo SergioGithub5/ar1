@@ -1,3 +1,8 @@
 cat derbi.txt | sed 's/,/ /g' | awk '{print $3, $4, $5}' | grep Levante | sort -k3 | > Levante.txt
 cat derbi.txt | sed 's/,/ /g' | awk '{print $3, $4, $5}' | grep Valencia | sort -k3 | > Valencia.txt
+cat derbi.txt | sed 's/,/ /g' | awk '{print $3, $4, $5}' | grep empate | sort -k3 | > empate.txt
+
+
+
+
 
